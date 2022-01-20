@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#color for styles
+GREEN='\033[0;32m'
+
 # current Git branch
 branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 
@@ -21,4 +24,4 @@ echo "$msg"
 
 git push
 
-echo "pushed"
+echo "${GREEN}pushed"
