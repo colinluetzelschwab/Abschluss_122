@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#color for styles
+#colors for styles
+BLUE='\033[0;34m'
+PURPLE='\033[0;35m'
 GREEN='\033[0;32m'
 
 # current Git branch
@@ -9,8 +11,8 @@ branch=$(git symbolic-ref HEAD | sed -e 's,.*/\(.*\),\1,')
 # current project name
 projectName=$(git config --local remote.origin.url|sed -n 's#.*/\([^.]*\)\.git#\1#p')
 
-echo "Project: $projectName"
-echo "Branch: $branch"
+echo "Project: ${BLUE}$projectName"
+echo "Branch: ${PURPLE}$branch"
 
 git add .
 
