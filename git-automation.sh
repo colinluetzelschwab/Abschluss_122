@@ -22,5 +22,3 @@ echo "$msg"
 git push
 
 echo "pushed"
-
-fi
