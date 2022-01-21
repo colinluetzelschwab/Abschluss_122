@@ -14,6 +14,8 @@ Man wird schön dur die einzelnen Schritte durchgeführt und bekommt genügend I
 
 ## Aktivitätendiagramm
 
+![image](https://user-images.githubusercontent.com/71329443/150550662-9dd2e21b-73e5-4db1-b4e6-f4596cd6c941.png)
+
 
 ## Use-Cases
 
